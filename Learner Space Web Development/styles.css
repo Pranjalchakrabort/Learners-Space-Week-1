@@ -1,0 +1,144 @@
+body{
+    margin:0px;
+}
+
+header{
+    padding:200px;
+    text-align: center;
+    background-image: url(Images/headerbackground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+
+}
+
+header h1{
+    font-size: 100px;
+}
+
+header h4{
+    font-size: 15px;
+}
+
+nav{
+    display: flex;
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+nav a{
+    display: inline;
+    color: black;
+    padding: 15px 40px;
+    text-decoration: none;
+    text-align: center;
+    font-size: large;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+section h2{
+    text-align: center;
+    font-size: xxx-large;
+}
+
+section h3{
+    text-align: center;
+    font-size: x-large;
+}
+
+section h4{
+    font-size: large;
+}
+
+iframe{
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+figcaption{
+    text-align: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+section{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+section a{
+text-decoration: none;
+color: blue;
+}
+
+section a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.flex_align_right{
+    margin-left: auto;
+}
+
+#quiz{
+    text-align: center ;
+    padding: 50px;
+}
+
+#quiz button{
+    
+    background-color: white;
+    color: black;
+    font-size: 20px;
+
+}
+
+#quiz button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+    font-size: 24px;
+  }
+
+@media screen and (max-width:700px) {
+    nav{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .flex_align_right{
+        margin-left: 0;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
